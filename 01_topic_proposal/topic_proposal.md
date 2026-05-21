@@ -67,10 +67,10 @@ Evaluation plan:
 
 ## 11. Related Papers
 
-/ No / Title / Year / Source / Link / DOI /<br>
-/---/--------/------/--------/------/-----/<br>
-/ 1 / Early Warning Systems in Higher Education: A Systematic Review/ 2022 / IEEE Access / link / Directly Related (1)/<br>
-/ 2 / Predicting Student Academic Performance in Higher Education Using Machine Learning / 2023 / ACM Digital Library / link / Directly Related (2) /<br>
-/ 3 / Student Performance Prediction Using Random Forest Algorithm / 2023 / Procedia Computer Science / link / AI Method (1) /<br>
-/ 4 / Retrieval-Augmented Generation (RAG) for Local Domain Knowledge Base Systems / 2024 / arXiv preprint / link / AI Method (2) /<br>
-/ 5 / The Role of Technology in Student Support Services and Learning Management / 2023 / Higher Education Quarterly / link / Domain (1) /
+| No | Title | Year | Source | Link | DOI |
+|:---|-------|------|--------|------|-----|
+| 1 | Early Warning Systems in Higher Education: A Systematic Review | 2022 | IEEE Access | link | Directly Related (1) |
+| 2 | Predicting Student Academic Performance in Higher Education Using Machine Learning | 2023 | ACM Digital Library | link | Directly Related (2) |
+| 3 | Student Performance Prediction Using Random Forest Algorithm | 2023 | Procedia Computer Science | link | AI Method (1) |
+| 4 | Retrieval-Augmented Generation (RAG) for Local Domain Knowledge Base Systems | 2024 | arXiv preprint | link | AI Method (2) |
+| 5 | The Role of Technology in Student Support Services and Learning Management | 2023 | Higher Education Quarterly | link | Domain (1) |
