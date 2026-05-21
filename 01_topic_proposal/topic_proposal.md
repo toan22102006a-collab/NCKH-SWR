@@ -57,7 +57,7 @@ Expected contribution:
 
 Evaluation plan:
 
-- Dataset: Historical of student academic records from the school protal, syllabus of all course in school, cái road map của từng chuyên ngành cụ thể
+- Dataset: Historical of student academic records from the school protal, syllabus of all course in school and specific major roadmaps.
 - Baseline: Traditional rule-based triggers
 - Metrics:
   - For Warning Feature (Random Forest): Accuracy, Precision, Recall, and F1-Score.
@@ -67,10 +67,10 @@ Evaluation plan:
 
 ## 11. Related Papers
 
-| No | Title | Year | Source | Link | DOI |
-|:---|-------|------|--------|------|-----|
-| 1 | Early Warning Systems in Higher Education: A Systematic Review | 2022 | IEEE Access | link | Directly Related (1) |
-| 2 | Predicting Student Academic Performance in Higher Education Using Machine Learning | 2023 | ACM Digital Library | link | Directly Related (2) |
-| 3 | Student Performance Prediction Using Random Forest Algorithm | 2023 | Procedia Computer Science | link | AI Method (1) |
-| 4 | Retrieval-Augmented Generation (RAG) for Local Domain Knowledge Base Systems | 2024 | arXiv preprint | link | AI Method (2) |
-| 5 | The Role of Technology in Student Support Services and Learning Management | 2023 | Higher Education Quarterly | link | Domain (1) |
+| No  | Title                                                                                                                                                    | Year | Source                                        | Link                                                                                                                           | Category             |
+| :-- | -------------------------------------------------------------------------------------------------------------------------------------------------------- | ---- | --------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ | -------------------- |
+| 1   | Ethical Imperatives and Challenges: Review of the Use of Machine Learning for Predictive Analytics in Higher Education                                   | 2024 | Digital Commons@Lindenwood University         | https://digitalcommons.lindenwood.edu/cgi/viewcontent.cgi?article=1645&context=faculty-research-papers                         | Directly Related (1) |
+| 2   | Predicting Student Academic Performance in Higher Education Using Data Mining: A Systematic Review                                                       | 2022 | Wiley Online Library                          | https://onlinelibrary.wiley.com/doi/full/10.1155/2022/8924028                                                                  | Directly Related (2) |
+| 3   | Development of a Framework for Predicting Students' Academic Performance in STEM Education using Machine Learning Methods                                | 2024 | ResearchGate                                  | https://www.researchgate.net/profile/Assyl-Tuimebayev/publication/378141724_Development_of_a_Framework_for_Predicting_Students | AI Method (1)        |
+| 4   | Investigating the Performance of Retrieval-Augmented Generation and Domain-Specific Fine-Tuning for the Development of AI-Driven Knowledge-Based Systems | 2024 | MDPI                                          | https://www.mdpi.com/2504-4990/7/1/15                                                                                          | AI Method (2)        |
+| 5   | Academic and student use of a learning managementsystem: Implications for quality                                                                        | 2008 | Australasian Journal ofEducational Technology | https://ajet.org.au/index.php/AJET/article/view/1228/453                                                                       | Domain (1)           |
