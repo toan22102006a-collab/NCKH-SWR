@@ -1,7 +1,6 @@
 # WEEKLY REPORT
 
-**Nguyen Trong Toan - Leader**
-**Week 1**
+**Nguyen Trong Toan - Leader - Week 1**
 
 ## Executive Summary
 
@@ -24,7 +23,7 @@ In this week, the core focus is setting up the repository, fork and clone it. Ne
 - Blockers: have not done the division of work and task among team members for week 2.
 - Support Needed: .
 
-## 🚀 5. Next Week's Plan
+## Next Week's Plan
 
 1. Done division of work and task among my team members for week 2.
 2. Done task for week 2.
