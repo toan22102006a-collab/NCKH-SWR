@@ -1,4 +1,4 @@
-## Topic Proposal
+# Topic Proposal
 
 ## 1. Group Information
 
