@@ -1,4 +1,4 @@
-#Topic Proposal
+## Topic Proposal
 
 ## 1. Group Infor mation
 
@@ -57,10 +57,10 @@ Evaluation plan:
 
 ## 11. Related Papers
 
-/ No / Tittle / Year / Source / Link / DOI /
-/---/--------/------/--------/------/-----/
-/ 1 /
-/ 2 /
-/ 3 /
-/ 4 /
+/ No / Tittle / Year / Source / Link / DOI /<br>
+/---/--------/------/--------/------/-----/<br>
+/ 1 /<br>
+/ 2 /<br>
+/ 3 /<br>
+/ 4 /<br>
 / 5 /
