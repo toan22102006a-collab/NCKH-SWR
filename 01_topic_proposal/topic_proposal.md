@@ -3,15 +3,15 @@
 ## 1. Group Information
 
 - Class: SE2037
-- Group: 3
+- Group: 03
 - Leader: Nguyen Trong Toan
 - Members: Huynh Viet Phat, Pham Trong Nghia, Vu Tran Phuc Khang, Phan Bao Duy
 
 ## 2. Proposed Title
 
-** English title: An AI System for Monitoring, Early Warning, and Academic Improvement in Personalized Student Learning Management. **
+**English title: An AI System for Monitoring, Early Warning, and Academic Improvement in Personalized Student Learning Management.**
 
-** Vietnamese title: Hệ thống trí tuệ nhân tạo để giám sát, đưa ra cảnh báo sớm, cải thiện và quản lí việc học của cá nhân sinh viên. **
+**Vietnamese title: Hệ thống trí tuệ nhân tạo để giám sát, đưa ra cảnh báo sớm, cải thiện và quản lí việc học của cá nhân sinh viên.**
 
 ## 3. Application Domain
 
