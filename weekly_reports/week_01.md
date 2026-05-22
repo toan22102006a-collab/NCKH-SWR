@@ -2,10 +2,10 @@
 
 ## Group Information
 
-Class: SE2037
-Group: 03
-Leader: Nguyen Trong Toan
-Members: Huynh Viet Phat, Pham Trong Nghia, Vu Tran Phuc Khang, Phan Bao Duy
+- Class: SE2037
+- Group: 03
+- Leader: Nguyen Trong Toan
+- Members: Huynh Viet Phat, Pham Trong Nghia, Vu Tran Phuc Khang, Phan Bao Duy
 
 ## Tasks Completed This Week
 
