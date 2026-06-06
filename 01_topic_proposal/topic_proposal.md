@@ -27,14 +27,17 @@
 
 ## 5. Motivation
 
-- Practical Motivation:
-  - Academic failure and dropouts cause big problems for both schools and students. For schools, high dropout rates damage their reputation and reduce their financial income. For students, failing a course wastes their time and money, and easily leads to serious mental health issues like stress and depression. By using AI to warn students early, schools can help them in time and reduce these negative impacts before it is too late.
-- Engineering Motivation:
-  - Building an AI educational system without a clear Requirements Engineering (RE) process is very risky. Without it, engineers might build a flawed AI that gives wrong warnings (causing unnecessary panic for students) or creates incorrect study plans (harming how students learn). Therefore, designing a proper RE framework is the key to success. It ensures the AI system is safe, accurate, and works exactly how teachers and students expect.
+1. Practical Motivation:
+
+- Academic failure and dropouts cause big problems for both schools and students. For schools, high dropout rates damage their reputation and reduce their financial income. For students, failing a course wastes their time and money, and easily leads to serious mental health issues like stress and depression. By using AI to warn students early, schools can help them in time and reduce these negative impacts before it is too late.
+
+2. Engineering Motivation:
+
+- Building an AI educational system without a clear Requirements Engineering (RE) process is very risky. Without it, engineers might build a flawed AI that gives wrong warnings (causing unnecessary panic for students) or creates incorrect study plans (harming how students learn). Therefore, designing a proper RE framework is the key to success. It ensures the AI system is safe, accurate, and works exactly how teachers and students expect.
 
 ## 6. Target Users
 
-- Target Users:
+### Target Users:
 
 1. School managers/ Academic Administrators:
 
