@@ -1,6 +1,7 @@
-# Literature Review Matrix
-
-| Paper                                                                                                                                                           | Domain      | AI Model / Method | Dataset                        | Evaluation Metrics          | Main Contribution                                                                                                                                                  | Limitation                                                                                                                                | Relevance |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- | ----------------- | ------------------------------ | --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------- | --------- |
-| Paper 1: Ethical Imperatives and Challenges: Review of the Use of Machine Learning for Predictive Analytics in Higher Education (Barnes, Hutson, & Perry, 2024) | Education   | Machine Learning  | Secondary data from literature | Qualitative ethical metrics | Comprehensive review of ML in higher education; proposes a balanced approach and guidelines for robust ethical frameworks in Higher Education Institutions (HEIs). | Lack of primary empirical data validation; relies on synthesis of existing literature/practices without testing a specific new algorithm. | High      |
-| Paper 2                                                                                                                                                         | Agriculture | Random Forest     | Sensor data                    | F1-score                    | Disease detection                                                                                                                                                  | No explanation                                                                                                                            | Medium    |
+| No | Paper Title | Year | Venue | Topic / Domain | Research Method | Context | Key Findings | Limitation | Relevance to Our Topic |
+|---|---|---|---|---|---|---|---|---|---|
+| 1 | | | | | | | | | |
+| 2 | | | | | | | | | |
+| 3 | | | | | | | | | |
+| 4 | | | | | | | | | |
+| 5 | | | | | | | | | |
