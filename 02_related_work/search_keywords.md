@@ -1,13 +1,16 @@
-# Search Keywords - Week 2
+# Search Keywords
 
 ## Group Information
 
 - Class: SE2037
 - Group: 03
+- Leader: Nguyen Trong Toan
+- Members: Huynh Viet Phat, Pham Trong Nghia, Vu Tran Phuc Khang, Phan Bao Duy
 
 ## Search Strategy
 
 ### Databases Used
+
 - Google Scholar
 - Semantic Scholar
 - IEEE Xplore
@@ -15,38 +18,38 @@
 - ScienceDirect
 - ERIC
 - MDPI
+- Springer
 
 ### Keywords by Category
 
-#### Directly Related (Early Warning / Academic Performance)
-- "student dropout prediction higher education"
-- "early academic warning system machine learning"
-- "student academic performance prediction"
-- "predicting student failure university"
-- "at-risk student detection"
+#### Directly Related & Requirements Engineering (Core requirements & RE methods)
 
-#### AI Method - Random Forest
-- "random forest student dropout prediction"
-- "random forest academic performance classification"
-- "ensemble learning student failure prediction"
+- "Machine learning", "Ethical challenges", "Higher education", "Predicting analytics", "Data privacy" (Matched with paper 1).
+- "Student dropout prediction", "Learning Management System", "Machine Learning", "Educational Data Mining" (Matched with paper 2).
+- "requirements engineering for artificial intelligence" (RE4AI)
+- "goal-oriented requirements engineering AI systems" (Matched with paper 5)
+- "software requirements elicitation challenges in higher education" (Matched with paper 7)
 
-#### AI Method - RAG / LLM
-- "retrieval augmented generation education"
-- "RAG personalized learning system"
-- "LLM study plan generation student"
-- "large language model academic recommendation"
-- "generative AI learning management system"
+#### AI & Predictive Analytics Methods
 
-#### Domain - LMS / Student Support
-- "learning management system student engagement"
-- "AI student support system university"
-- "personalized learning platform higher education"
+- "machine learning in higher education"
+- "student dropout prediction machine learning models" (Matched with paper 2)
+- "learning management system log data student failure" (Matched with paper 3)
+- "academic performance classification ensemble learning university"
+
+#### Real-world Context & Systematics Reviews
+
+- "predicting academic success systematic review data analytics" (Matched with paper 6)
+- "at-risk student detection higher education institutions"
+- "early academic warning system implementation challenges"
 
 ### Search Period
+
 - Focus: 2020–2025, prioritize recent papers
 - Exception: classic/foundational papers allowed, such as No. 10 from 2008
 
 ### Filter Criteria
+
 - Published in peer-reviewed journals or conference proceedings
 - Full-text accessible or abstract available for review
 - Directly relevant to at least one system feature
