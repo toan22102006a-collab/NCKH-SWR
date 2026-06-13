@@ -2,42 +2,42 @@
 
 ## Citation
 
-Tên bài: A Requirements Engineering Perspective to AI-based Systems Development: A Vision Paper 
-Tác giả: Xavier Franch, Andreas Jedlitschka, Silverio Martínez-Fernández
-Năm: 2023
-Nguồn: Springer
+Paper name: A Requirements Engineering Perspective to AI-based Systems Development: A Vision Paper 
+Author: Xavier Franch, Andreas Jedlitschka, Silverio Martínez-Fernández
+Published year: 2023
+Source: Springer
 DOI/Link: https://upcommons.upc.edu/server/api/core/bitstreams/590b8cce-d439-4b67-8958-d00ed7802cef/content
 
 ## Problem
 
-- Bài báo giải quyết vấn đề sự thiếu hụt một khung phương pháp luận hoàn chỉnh và vai trò cốt lõi của Kỹ nghệ Yêu cầu (RE) trong quy trình phát triển hệ thống dựa trên AI. Các đặc tính đặc thù của AI (như tính bất định, sự phụ thuộc vào dữ liệu, hành vi tự học) làm sụp đổ các cách tiếp cận RE truyền thống. Bài báo đặt câu hỏi lớn: RE cần phải thay đổi như thế nào về mặt vai trò nhân sự, phạm vi yêu cầu và các yêu cầu phi chức năng để trở thành nền tảng thành công cho các dự án AI?
+- This paper addresses the lack of a complete methodological framework and core narrative of Requirement Engineering (RE) in the AI-based system development process. The vengeful characteristics of AI (such as defiance, data dependence, and self-learning behavior) hinder the accessibility of RE systems. The paper raises the big question: How does RE need to change in terms of personnel roles, requirements scope, and non-functional requirements to become a successful platform for AI projects?
 
 ## Method
 
-- Bài báo sử dụng phương pháp Bài báo định hướng tầm nhìn (Vision Paper) kết hợp với Phân tích học thuật phê phán (Conceptual Analysis & Roadmapping). Nhóm tác giả dựa trên kinh nghiệm nghiên cứu, các thách thức thực tế và lý thuyết phần mềm hiện tại để tổng hợp, cấu trúc hóa vấn đề thành 3 trụ cột lớn, từ đó vạch ra một lộ trình nghiên cứu (Research Roadmap) cho tương lai.
+- This paper employs a Vision Paper methodology combined with Conceptual Analysis & Roadmapping. Based on research experience, practical challenges, and current software theory, the authors synthesize and structure the problem into three major pillars, thereby outlining a research roadmap for the future.
 
 ## Context
 
-- Bối cảnh nghiên cứu đặt trong giai đoạn các hệ thống tích hợp mô hình AI/ML đang bùng nổ và len lỏi vào mọi góc cạnh của xã hội (giai đoạn 2022–2023 trở đi). Nghiên cứu không giới hạn ở một ngành cụ thể mà xem xét toàn cục quy trình kỹ nghệ phần mềm cho hệ thống AI (SE4AI), nơi có sự tham gia của nhiều bên liên quan mới và có sự giao thoa phức tạp giữa kỹ nghệ mã nguồn (Code engineering) và kỹ nghệ dữ liệu (Data engineering).
+- The research is set within the context of the booming AI/ML model integration systems permeating every aspect of society (from 2022–2023 onwards). The study is not limited to a specific industry but examines the entire software engineering process for AI systems (SE4AI), involving many new stakeholders and a complex intersection between code engineering and data engineering.
 
 ## Key Findings
 
-- Sự chuyển dịch về Vai trò (Roles Involved): Quy trình làm RE cho AI không còn là việc riêng của Kỹ sư yêu cầu (Requirements Engineer) và Khách hàng. Nó bắt buộc phải tích hợp vai trò của Nhà khoa học dữ liệu (Data Scientist). Bài báo nhấn mạnh RE phải là "cầu nối ngôn ngữ" giữa mục tiêu kinh doanh của khách hàng và các thuật toán toán học của Data Scientist.
+- Roles Involved: The process of developing RE for AI is no longer solely the responsibility of the Requirements Engineer and the Client. It must integrate the role of the Data Scientist. The paper emphasizes that RE must act as a "language bridge" between the client's business objectives and the mathematical algorithms of the Data Scientist.
 
-- Mở rộng Phạm vi Yêu cầu (Requirements' Scope): Yêu cầu đối với hệ thống AI không chỉ dừng lại ở chức năng phần mềm mà phải mở rộng ra 3 thành phần: Yêu cầu về Phần mềm (Software), Yêu cầu về Mô hình AI (Model), và Yêu cầu về Dữ liệu (Data). RE phải quản lý được sự tiến hóa liên tục của dữ liệu và sự suy giảm hiệu năng của mô hình theo thời gian.
+- Expanding the Requirements' Scope: The requirements for an AI system should not be limited to software functionality but should extend to three components: Software Requirements, AI Model Requirements, and Data Requirements. The RE (Resource Engine) must manage the continuous evolution of data and the degradation of model performance over time.
 
-- Tái định nghĩa Yêu cầu phi chức năng (NFRs cho AI): Các đặc tính chất lượng truyền thống phải được thay thế hoặc bổ sung bằng các NFRs đặc thù của AI bao gồm: Tính công bằng (Fairness), Tính giải thích được (Explainability), Tính an toàn/bảo mật của mô hình (Robustness/Safety), và Trách nhiệm giải trình (Accountability).
+- Redefining Non-Functional Requirements (NFRs) for AI: Traditional quality characteristics must be replaced or supplemented with AI-specific NFRs including: Fairness, Explainability, Robustness/Safety of the Model, and Accountability.
 
 ## Limitations
 
-- Mang tính lý thuyết và định hướng vĩ mô: Vì là một Vision Paper, bài báo chỉ dừng lại ở việc đưa ra tầm nhìn, khung khái niệm và vạch lộ trình nghiên cứu chứ chưa cung cấp một framework kỹ thuật chi tiết, chưa có công cụ cụ thể hoặc các số liệu thực nghiệm (empirical data) để chứng minh tính hiệu quả của các đề xuất.
+- Theoretical and macro-oriented: As a Vision Paper, the paper only presents a vision, conceptual framework, and research roadmap, but does not provide a detailed technical framework, specific tools, or empirical data to demonstrate the effectiveness of the proposals.
 
-- Chưa có Case Study cụ thể: Các luận điểm được đưa ra mang tính tổng quát cho mọi hệ thống AI, chưa được kiểm chứng trên các miền ứng dụng đặc thù (như y tế, giáo dục hay tài chính).
+- There are no specific case studies: The arguments presented are general in nature, applicable to all AI systems, and have not been tested in specific application domains (such as healthcare, education, or finance).
 
 ## Relevance to our topic
 
-- Xây dựng cấu trúc cho Literature Review Matrix: Bài báo gợi ý rất rõ cho nhóm rằng khi thu thập yêu cầu cho hệ thống cảnh báo sớm AI, nhóm phải chia ma trận yêu cầu thành 3 nhánh rõ rệt: Yêu cầu về phần mềm (giao diện, thông báo), Yêu cầu về mô hình (thuật toán Random Forest/XGBoost), và Yêu cầu về dữ liệu (LMS log, điểm số).
+- Building the structure for the Literature Review Matrix: The paper clearly suggests to the team that when gathering requirements for an AI early warning system, the team should divide the requirements matrix into three distinct branches: Software requirements (interface, notifications), Model requirements (Random Forest/XGBoost algorithm), and Data requirements (LMS logs, scores).
 
-- Định hình quy trình làm việc nhóm (gợi ý cho phần Methodology): Giúp nhóm phân định rõ vai trò khi làm RE: thành viên nào đóng vai trò Kỹ sư yêu cầu để làm việc với Phòng đào tạo/Sinh viên, thành viên nào đóng vai trò Data Scientist để dịch chuyển các yêu cầu đó thành thuộc tính dữ liệu.
+- Defining the team workflow (suggestions for the Methodology section): This helps the team clearly define roles when working on RE: which member acts as the Requirements Engineer to work with the Training Department/Students, and which member acts as the Data Scientist to translate those requirements into data attributes.
 
-- Luận điểm cốt lõi để viết Abstract: Nhóm có thể trích dẫn tư duy của bài báo này để viết phần đặt vấn đề: Do hệ thống SEWS dựa trên AI mang tính bất định, việc áp dụng cách tiếp cận RE phối hợp giữa Phần mềm - Mô hình - Dữ liệu là bắt buộc để đảm bảo hệ thống vận hành thực tế thành công.
+- Defining the team workflow (suggestions for the Methodology section): This helps the team clearly define roles when working on RE: which member acts as the Requirements Engineer to work with the Training Department/Students, and which member acts as the Data Scientist to translate those requirements into data attributes.
