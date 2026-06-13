@@ -2,50 +2,48 @@
 
 ## Citation
 
-Tên bài: Requirements Engineering for Machine Learning-Based AI Systems: A Tertiary Study
-Tác giả: Mariana Crisostomo Martins, Lívia Mancine C. Campos, João Lucas R. Soares, Taciana Novo Kudo, Renato F. Bulcão-Neto
-Năm: 2025
-Nguồn: Journal of Software Engineering Research and Development
-DOI/Link: https://journals-sol.sbc.org.br/index.php/jserd/article/view/4892/3438
+- **Title:** Requirements Engineering for Machine Learning-Based AI Systems: A Tertiary Study
+- **Authors:** Mariana Crisostomo Martins, Lívia Mancine C. Campos, João Lucas R. Soares, Taciana Novo Kudo, Renato F. Bulcão-Neto
+- **Year:** 2025
+- **Source:** Journal of Software Engineering Research and Development (JSERD)
+- **DOI/Link:** https://doi.org/10.5753/jserd.2025.4892
 
 ## Problem
 
-- Bài báo giải quyết vấn đề phân mảnh và thiếu sự đồng bộ trong tri thức về Kỹ nghệ Yêu cầu cho Hệ thống học máy (RE4ML). Mặc dù có rất nhiều nghiên cứu thứ cấp (như Systematic Mapping, Systematic Literature Review) về chủ đề này trong thập kỷ qua, nhưng chưa có một nghiên cứu bậc 3 (Tertiary Study) nào đứng ra tổng hợp, phân tích và đánh giá chất lượng của chính các nghiên cứu thứ cấp đó nhằm đưa ra một bức tranh toàn cảnh, có hệ thống về các giải pháp, công cụ, thách thức và khoảng trống nghiên cứu hiện tại.
+- The paper addresses the mismatch and lack of integration between traditional Requirements Engineering (RE) practices and the unique characteristics of Machine Learning (ML)-based AI systems. The behavior of ML systems is inherently data-driven and uncertain, rendering conventional, deterministic software requirements engineering methodologies inadequate. 
+- While numerous primary and secondary studies (such as systematic mapping studies and literature reviews) have investigated Requirements Engineering for Machine Learning (RE4ML), the literature remained fragmented. Prior to this work, no tertiary study had comprehensively synthesized the existing secondary literature to assess study quality, compile common solutions, map challenges, and establish a unified research agenda.
 
 ## Method
 
-- Bài báo sử dụng phương pháp Nghiên cứu tổng quan cấp bậc 3 (Tertiary Study / Guidelines by Kitchenham):
-  - Thực hiện một quy trình nghiêm ngặt từ lập đề cương (Protocol), tìm kiếm tự động trên 5 cơ sở dữ liệu lớn và áp dụng kỹ thuật tìm kiếm "Snowballing".
-
-  - Lọc và chọn ra 11 nghiên cứu thứ cấp chất lượng cao (được xuất bản từ năm 2019 đến 2023).
-
-  - Áp dụng thang đo DARE (Database of Abstracts of Reviews of Effects) để đánh giá chất lượng (Quality Assessment) của các nghiên cứu thứ cấp này trước khi tổng hợp tri thức.
+- The authors conducted a systematic tertiary study (a review of secondary studies) following established guidelines in software engineering (Kitchenham et al., Cruzes & Dybå, and Kudo et al.):
+  - **Search Strategy:** Executed an automatic search query across six major digital libraries (ACM Digital Library, IEEE Xplore, Scopus, Engineering Village, Wiley, and Web of Science), supplemented by recursive backward and forward snowballing.
+  - **Study Selection:** Applied strict inclusion and exclusion criteria to select 9 high-quality secondary studies published between 2019 and 2023.
+  - **Quality Assessment:** Evaluated the selected secondary studies using 8 quality criteria (QC) adapted from the Centre for Reviews and Dissemination (CDR).
+  - **Synthesis:** Categorized and synthesized the findings based on the core RE activities defined in the SWEBOK v4.0 framework (elicitation, analysis, specification, validation, and management).
 
 ## Context
 
-- Bối cảnh đặt trong hệ sinh thái Kỹ nghệ Phần mềm cho AI (SE4AI / RE4ML) toàn cầu. Nghiên cứu xem xét toàn bộ các giai đoạn trong vòng đời RE truyền thống (Lấy yêu cầu, Phân tích, Đặc tả, Kiểm chuẩn, Quản lý) nhưng đặt trong bối cảnh bị thách thức bởi các đặc tính kỹ thuật phức tạp của Học máy (ML) như tính phụ thuộc dữ liệu, tính bất định (uncertainty) và "hộp đen" thuật toán.
+- The research is situated within the global Software Engineering for AI (SE4AI) and RE4ML domain. It evaluates RE activities across various software systems that integrate ML components, with a strong focus on high-stakes and safety-critical application domains such as autonomous driving, computer vision, aviation, and healthcare. The study investigates how software development teams, data scientists, and domain experts collaborate under the technical uncertainties of data-driven systems.
 
 ## Key Findings
 
-- Các giai đoạn RE được tập trung nhiều nhất: Giai đoạn Lấy yêu cầu (Elicitation) và Đặc tả yêu cầu (Specification) là hai nhánh được nghiên cứu sâu nhất và có nhiều giải pháp đề xuất nhất, vì đây là nơi xảy ra xung đột lớn nhất giữa yêu cầu người dùng và khả năng của dữ liệu.
-
-- Các phương pháp/công cụ RE4ML phổ biến: Bài báo chỉ ra các công cụ/framework hàng đầu hiện nay được áp dụng cho AI bao gồm: GR4ML (Goal-Oriented RE cho ML), Straw-man proposal, các mẫu biểu đặc tả (Templates), và Ma trận chất lượng dữ liệu (Data Quality Matrices).
-
-- Sự dịch chuyển của Yêu cầu phi chức năng (NFRs): Khẳng định lại tính sống còn của các thuộc tính: Tính giải thích được (Explainability), Tính minh bạch (Transparency), Độ tin cậy (Reliability), và Tính an toàn (Safety) đối với hệ thống AI.
-
-- Các khoảng trống lớn (Research Gaps): \* Thiếu các công cụ tự động hóa hỗ trợ kỹ sư làm RE4ML.
-  - Giai đoạn Kiểm chuẩn yêu cầu (Validation) và Quản lý yêu cầu (Management) cho AI còn rất sơ khai, chưa được quan tâm đúng mức.
-
-  - Thiếu các nghiên cứu thực nghiệm quy mô lớn trong môi trường công nghiệp thực tế.
+- **RE Phase Imbalance:** The majority of existing research concentrates on the Requirements Elicitation and Specification phases, whereas Requirements Validation and Management remain severely under-researched.
+- **Critical Non-Functional Requirements (NFRs):** The synthesis highlights that explainability, transparency, trust, safety, security, fairness, privacy, and reliability are the most crucial and frequently discussed NFRs in ML-based systems.
+- **Elicitation & Specification Approaches:** Brainstorming and ad-hoc methods are the most common elicitation techniques. For specification, goal-oriented requirements engineering (GORE) frameworks (such as GR4ML) and UML-based modeling are the most prevalent, alongside specifying requirements as experimental hypotheses.
+- **Major Gaps & Challenges:**
+  - Lack of standardized, integrated tool support and tailored methodologies for RE4ML.
+  - High difficulty in specifying data-specific requirements (e.g., data quality, completeness, and bias).
+  - Inadequate traceability between requirements, datasets, and model versions.
+  - Poor collaboration and communication gaps between traditional software engineers and data scientists due to differing vocabularies and expectations.
+- **Research Agenda:** The study proposes a 9-point research agenda targeting critical areas such as NFR trade-offs, traceability, performance metrics, and industry-academic collaboration.
 
 ## Limitations
 
-- Giới hạn thời gian thu thập dữ liệu thứ cấp: Các nghiên cứu thứ cấp được chọn chỉ bao gồm các bài xuất bản từ năm 2019 đến năm 2023, điều này có nghĩa là một số nghiên cứu mới xuất sắc trong giai đoạn 2024–2025 chưa được tích hợp vào mô hình phân tích của bài báo này.
-
-- Sự phụ thuộc vào chất lượng của nghiên cứu gốc: Vì là nghiên cứu bậc 3, nếu các nghiên cứu thứ cấp hoặc các nghiên cứu sơ cấp (primary studies) trước đó có những sai lệch về dữ liệu hoặc báo cáo không rõ ràng, kết quả tổng hợp của bài báo này cũng sẽ bị ảnh hưởng theo (bài báo có thừa nhận thách thức này trong phần Threat to Validity).
+- **Timeline Constraint:** The search process was completed in October 2023, meaning that secondary studies published in late 2023, 2024, or 2025 were not included in the analysis.
+- **Primary/Secondary Study Dependency:** As a tertiary study, the validity and generalizability of the findings are inherently limited by the quality, accuracy, and biases of the original secondary and primary studies it synthesizes (e.g., the scarcity of large-scale industrial validation in primary studies).
 
 ## Relevance to our topic
 
-- Cung cấp bằng chứng thuyết phục cho phần Introduction/Abstract: Nhóm có thể dùng kết luận của bài báo này (một bài báo năm 2025) để lập luận: "Nghiên cứu bậc 3 mới nhất cho thấy quy trình Kiểm chuẩn (Validation) và công cụ hỗ trợ RE cho AI vẫn còn bỏ ngỏ. Nghiên cứu này của nhóm đóng đóng góp vào việc lấp đầy khoảng trống đó bằng cách áp dụng quy trình RE cụ thể vào hệ thống cảnh báo sớm sinh viên".
-
-- Định hướng lựa chọn Công cụ/Framework: Giúp nhóm tự tin lựa chọn hướng tiếp cận Goal-Oriented (GR4ML) hoặc sử dụng các Mẫu biểu đặc tả (Specification Templates) cho hệ thống SEWS của mình, vì bài báo đã chứng minh đây là các giải pháp có độ đồng thuận và hiệu quả cao nhất trong giới học thuật hiện tại.
+- **Guidance for Non-Functional Requirements (NFRs):** For our Student Early Warning System (SEWS), this study underscores that we cannot treat the machine learning model as a black box. We must formally specify NFRs such as explainability (how risk predictions are explained to academic advisors) and fairness (ensuring predictions do not introduce bias against specific student demographics).
+- **Data & Model Specification:** It guides our team to document and specify data requirements (e.g., student attendance records, LMS activity patterns) and model requirements separately, treating model performance thresholds as testable hypotheses.
+- **Mitigating Communication Gaps:** It serves as a reminder to establish clear, shared terminologies between our software developers (handling the frontend and warning pipeline) and data scientists (handling the risk prediction models) to avoid integration failures.
