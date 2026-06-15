@@ -37,8 +37,6 @@
 
 ## 6. Target Context
 
-### Target Context:
-
 1. School managers/ Academic Administrators:
 
 - Role: Monitor overall institutional performance and ensure system data privacy compliance.
@@ -62,7 +60,7 @@
 
 - RQ3: How can academic advisors validate whether the warning messages and suggested support plans are useful and understandable?
 
-## 8. ## 8. Related Papers (preliminary)
+## 8. Related Papers (preliminary)
 
 | No  | Title                                                                                                                  | Year | Source                                | Link/DOI                                                                                                        |
 | :-- | ---------------------------------------------------------------------------------------------------------------------- | ---- | ------------------------------------- | --------------------------------------------------------------------------------------------------------------- |

@@ -2,39 +2,99 @@
 
 ## Citation
 
-Tên bài: Developing an Early Warning System with Personalized Interventions to Enhance Academic Outcomes for At-Risk Students in Taiwanese Higher Education
-Tác giả: Yuan-Hsun Chang, Feng-Chueh Chen, Chien-I Lee
-Năm: 2025
-Nguồn: Google Scholar
-DOI/Link: https://www.mdpi.com/2227-7102/15/10/1321
+- **Title:** Developing an Early Warning System with Personalized Interventions to Enhance Academic Outcomes for At-Risk Students in Taiwanese Higher Education
+- **Authors:** Yuan-Hsun Chang, Feng-Chueh Chen, Chien-I Lee
+- **Year:** 2025
+- **Source:** Google Scholar
+- **DOI/Link:** https://www.mdpi.com/2227-7102/15/10/1321
 
 ## Problem
 
-- Bài báo giải quyết vấn đề sự đứt gãy giữa mô hình dự đoán thuật toán và quy trình can thiệp thực tế trong các hệ thống cảnh báo sớm (EWS). Hầu hết nghiên cứu hiện tại chỉ tập trung tối ưu độ chính xác của AI (chạm trần lý thuyết) mà bỏ quên việc kiểm chứng thực nghiệm xem các biện pháp can thiệp có thực sự giúp sinh viên thoát rủi ro hay không. Đồng thời, các hệ thống EWS hiện nay phần lớn được thiết kế dựa trên văn hóa phương Tây (đề cao tính tự chủ cá nhân), tạo ra một khoảng trống lớn khi áp dụng vào các nền giáo dục Đông Á vốn chịu ảnh hưởng bởi Nho giáo (coi trọng thẩm quyền của giảng viên và mạng lưới hỗ trợ tập thể).
+- This paper focuses on addressing core issues related to supporting students at risk of academic underperformance within the context of higher education in Taiwan. Specifically, the main issues include:
+  - The delays of traditional warning systems: Conventional academic warning systems often rely on end-of-semester grades, which causes significant delays and limits opportunities for timely intervention to support students before it's too late. The current approach is more reactive than proactive.
+
+  - The challenge from the expansion of higher education in Taiwan: The shift from an elite to a mass education model, coupled with a declining birth rate, has led to a shortage of academic preparation among newly enrolled students. The university enrollment rate in Taiwan has increased from 70% in 2000 to nearly 98% in 2024, creating diversity but also causing significant disparities in academic ability and motivation.
+  - Cultural barriers stemming from Confucianism: In the Taiwanese context, Confucian values ​​emphasize the authority of teachers and the expectation that students will overcome difficulties on their own. This makes developing proactive, data-driven support systems not only a technical challenge but also a crucial socio-cultural need.
+
+  - Gap in current research: The majority of current studies focus only on improving the accuracy of predictions, lacking empirical validation of the effectiveness of interventions.
 
 ## Method
 
-- Bài báo sử dụng phương pháp Thiết kế hỗn hợp hai giai đoạn (Two-phase mixed-methods design):
-  - Giai đoạn 1 (Xây dựng mô hình): Khai phá dữ liệu giáo dục từ 2.856 sinh viên thuộc 64 khóa học trên hệ thống LMS để huấn luyện các mô hình học máy (Decision Trees, Random Forests, XGBoost) độc lập cho từng môn học.
-  - Giai đoạn 2 (Thực nghiệm can thiệp): Tiến hành một thử nghiệm bán thực nghiệm (Quasi-experimental trial) trên nhóm sinh viên có rủi ro (n=48) vào tuần thứ 6 của học kỳ để đánh giá trực tiếp hiệu quả của các chiến lược can thiệp cá nhân hóa được điều chỉnh theo bối cảnh văn hóa.
+- This paper uses a sequential two-phase quantitative research design to address the research questions. Specifically, it follows these steps:
+  1. Phase I: Building and Validating the Predictive Model:
+  - Utilizing Educational Data Mining (EDM) and Machine Learning methods.
+
+  - Data was extracted from the Learning Management System (LMS) and Student Information System (SIS) of 2,856 students across 64 courses.
+
+  - Algorithms compared included Decision Trees, Random Forests, and XGBoost to find the optimal model for identifying students at risk of academic underperformance.
+  2. Phase II: Quasi-experimental design:
+  - After building the model, the paper conducted a quasi-experimental experiment (n = 48) to evaluate the effectiveness of the interventions.
+
+  - Students were divided into an experimental group (receiving personalized intervention when the alert system was activated) and a control group (learning according to the normal procedure).
+
+  - Statistical methods such as t-test and analysis of covariates (ANCOVA) were used to compare learning outcomes between the two groups to determine the true impact of the alert system and the intervention.
 
 ## Context
 
-- Bối cảnh nghiên cứu diễn ra tại một trường đại học tổng hợp ở Đài Loan. Đây là môi trường đại học đang phải đối mặt với tình trạng già hóa dân số (tỷ lệ sinh giảm), dẫn đến việc mở rộng cửa tuyển sinh đại học gần như đại trà (tỷ lệ trúng tuyển đạt 98% năm 2024), khiến chất lượng và mức độ chuẩn bị học thuật của sinh viên đầu vào vô cùng chênh lệch.
+- This paper, conducted in the field of Higher Education in Taiwan, focuses on the application of Educational Data Mining and Machine Learning (ML) to develop an early warning system for identifying students at risk of academic failure. It utilizes a sequential two-phase research design combining administrative data from a Student Information System (SIS) and behavioral traces from a Learning Management System (LMS) to evaluate the predictive performance of models such as Decision Trees, Random Forest, and XGBoost. The study, conducted at a comprehensive university, analyzed data from 2,856 students across 64 courses to construct robust, course-specific predictive models. The main focus was on bridging the gap between prediction and intervention by addressing the trade-off between early prediction (at week 6) and model accuracy (achieving an AUC of 0.85) to support timely, culturally responsive interventions tailored to Confucian educational values.
 
 ## Key Findings
 
-- Trọng số của các biến dự đoán: Điểm số học thuật lịch sử (Previous semester grades), tỷ lệ điểm danh trên lớp (Attendance), và mô hình nộp bài tập (Assignment submission patterns) là những biến hành vi cốt lõi trên LMS giúp mô hình đạt độ chính xác phân loại cao (Balanced AUC = 0.85).
-- Hiệu quả can thiệp vượt trội nhờ yếu tố văn hóa: Khi áp dụng cơ chế can thiệp cá nhân hóa có sự chủ động thúc đẩy của giảng viên/cố vấn (phù hợp với tư duy Nho giáo thích nghe theo chỉ dẫn của người có chuyên môn), 73% sinh viên thuộc nhóm nguy cơ cao đã lội ngược dòng thành công và đạt điểm qua môn.
-- Kích thước hiệu ứng (Effect Size) khổng lồ: Phân tích thực nghiệm cho thấy mức độ cải thiện học thuật của nhóm can thiệp đạt chỉ số Cohen's d = 0.91. Đây là một con số cực lớn so với các tiêu chuẩn công nghệ giáo dục thông thường (chỉ dao động từ 0.3 - 0.5).
-- Bằng chứng về Hệ thống Kinh tế - Kỹ thuật (Socio-Technical): Nghiên cứu chứng minh tính đúng đắn của giả thuyết: Sự thành công của một hệ thống AI giáo dục không nằm ở thuật toán tách biệt, mà nằm ở sự phối hợp nhịp nhàng giữa cảnh báo chính xác của máy và mạng lưới hỗ trợ nhân văn của con người (giảng viên, trung tâm tư vấn, cố vấn học tập).
+1. Outstanding predictive model performance:
+
+- The model achieved a balanced AUC of 0.85, indicating good differentiation between at-risk and normal students.
+
+- The most important predictive variables included: previous semester grades, attendance rate, and timely assignment submission patterns.
+
+2. Significant intervention effectiveness (Most important finding):
+
+- Impressive pass rate: 73% of students in the at-risk group (experimental group) achieved a passing grade (≥ 60 points) after receiving the intervention. This is significantly higher than the historical success rate of approximately 55% (corresponding to a failure rate of 45%).
+
+- Strong improvement in academic performance: The intervention group showed an average score increase of 18.77 points with a large effect size (Cohen’s d = 0.91).
+
+- Narrowing the gap: The learning ability gap between the at-risk group and the normal group narrowed significantly after the intervention (group-determined score variability decreased from 51% on the pre-test to 10.1% on the post-test).
+
+3. Unexpected findings regarding the control group:
+
+- While the at-risk group progressed, the control group (students initially not subject to the warning system) experienced an average score drop of 10.50 points. This underscores the importance of continuous monitoring, as students who stabilize mid-term may still struggle later.
+
+4. Cultural and systemic value:
+
+- Cultural relevance: The study demonstrates that in the Taiwanese context, teacher- or mentor-led interventions have a stronger impact due to the influence of Confucian values ​​(respect for authority and collectivism) compared to Western autonomous models.
+
+- Closed-loop validation: The paper successfully completed and validated the full cycle: Prediction – Intervention – Evaluation, something very few previous studies have achieved.
 
 ## Limitations
 
-- Giới hạn quy mô mẫu thử nghiệm thực tế: Dù dữ liệu huấn luyện thuật toán ở Giai đoạn 1 rất lớn (hơn 2.800 sinh viên) , quy mô nhóm đối chứng và thực nghiệm ở Giai đoạn 2 phục vụ cho việc can thiệp chuyên sâu chỉ giới hạn ở mức 48 sinh viên của một khóa học cụ thể. Do đó, hiệu quả can thiệp trên diện rộng ở các ngành học có đặc thù khác nhau (như khối kỹ thuật chuyên sâu so với khối khoa học xã hội) cần được kiểm chứng thêm.
-- Ràng buộc đạo đức trong nghiên cứu: Do yêu cầu đạo đức giáo dục không cho phép bỏ mặc sinh viên yếu kém (không thể chia nhóm một cách ngẫu nhiên tuyệt đối để một nhóm rủi ro hoàn toàn không được hỗ trợ làm đối chứng), nhóm nghiên cứu phải sử dụng nhóm sinh viên không bị cảnh báo làm nhóm đối chứng. Điều này làm ảnh hưởng phần nào đến tính thuần khiết của thiết kế thực nghiệm truyền thống.
+1. Limitations in research design (Lack of randomization): Due to ethical constraints (the inability to refuse support to students identified as at risk), the study used a quasi-experimental design instead of a randomized controlled trial (RCT). This limited the ability to fully control for confounding variables such as personal motivation or personality traits, resulting in the study establishing an association rather than definitive evidence of causality.
+2. Narrow scope of implementation: The intervention phase was only carried out on a single general education course (History of Physical Education) with one cooperating instructor. Therefore, this result can be considered a "local success" and its effectiveness cannot yet be confirmed across all types of courses or different organizations.
+3. Lack of cultural benchmarks: The study lacked a parallel control group representing different cultural orientations (e.g., Western contexts emphasizing autonomy). Therefore, it is difficult to definitively distinguish whether the program's success was due to cultural adaptation or simply to having a structured support system.
+4. Lack of long-term data: Current assessments focus only on short-term outcomes within a single semester. The paper acknowledges the lack of longitudinal studies to assess the sustainability of intervention effects on students' long-term learning trajectories or self-regulation skill development.
+5. Data quality dependence: The effectiveness of the predictive model (H1) depends heavily on the completeness and reliability of the data at the course level. If the data from the LMS system or student records is incomplete, the accuracy of early warning will be significantly reduced.
+6. Generalization: While the research makes a significant contribution to the non-Western educational context, the authors also note that algorithmic thresholds and intervention protocols need further localization to suit diverse linguistic and socio-cultural environments.
 
 ## Relevance to our topic
 
-- Hợp thức hóa bối cảnh văn hóa tương đồng: Hệ thống giáo dục đại học Việt Nam (và cụ thể là tại Đại học FPT) có sự tương đồng rất lớn với Đài Loan về bối cảnh văn hóa Đông Á, nơi sinh viên tôn trọng giảng viên và quen với việc được dẫn dắt chủ động thay vì hoàn toàn tự học kiểu phương Tây. Nhóm có thể bê lập luận này vào phần đặc tả yêu cầu của hệ thống: "Hệ thống SEWS không chỉ gửi mail tự động cho sinh viên (mô hình phương Tây), mà phải cung cấp một Dashboard chuyên biệt cho Giảng viên và Phòng dịch vụ sinh viên để họ chủ động can thiệp (mô hình Đông Á đã được Chang et al., 2025 chứng minh hiệu quả cực cao)".
-- Thiết kế tính năng can thiệp khép kín (Closed-loop): Giúp nhóm đưa ra các yêu cầu chức năng cụ thể cho hệ thống: Ghi nhận trạng thái can thiệp (Giảng viên đã gặp sinh viên chưa? Sinh viên có cải thiện bài tập tuần sau không?), thực hiện đúng chu trình "Dự đoán - Can thiệp - Đánh giá lại hành vi" mà bài báo đề xuất.
+- Technical requirements and input data design: This paper identifies specific data requirements for an AI system to make accurate predictions, including:
+  - Administrative data (SIS): Previous semester grades, student background characteristics.
+
+  - Real-time behavioral data (LMS): Attendance rate, on-time assignment submission patterns.
+
+  - Technical analysis: Using Information Value (IV) to filter significant variables and comparing algorithms (Decision Tree, Random Forest, XGBoost) to select the optimal model in terms of both accuracy and interpretability—a crucial technical requirement for instructors to understand why students receive warnings.
+
+- Multi-stakeholder alert mechanism (Students, Faculty, School): Our project aims to notify multiple parties, and this paper has implemented that process precisely through a multi-tiered support system:
+  - Alert activation: When the AI ​​system detects a risk in week 6, a notification is immediately sent to the responsible faculty member.
+
+  - Information for the school: A list of at-risk students is forwarded to the faculty academic advisor and functional units such as the Teaching and Learning Development Center or the Psychological Counseling Center.
+
+  - Student feedback: Notifications are designed to be "empowering," encouraging students to self-feedback and seek help instead of putting psychological pressure on them.
+
+- Personalized support plans and learning materials: The paper demonstrates the requirement for a "personalized support plan" that we are referring to:
+  - State-based interventions: Depending on the cause of the risk (academic or psychological), students will receive different support such as: remedial instruction, one-on-one tutoring, or in-depth psychological counseling.
+
+  - Material suggestions: The system in the paper acts as a "learning environment" providing timely feedback to promote students' self-regulation abilities.
+
+- Socio-Technical Framework: This is the most deeply relevant point. The paper emphasizes that an AI-based EWS system is not just a purely technical tool, but a socio-technical system:
+  - Coordination: AI technology is only truly effective when embedded in a network of human support (instructors, mentors) and aligned with the culture (e.g., a culture that values ​​teacher instruction in the East Asian context).
+
+  - Closed-loop cycle: The paper validates the "Prediction – Intervention – Evaluation" cycle, providing a basis for designing requirements not only for the software but also for the system's operational processes in practice.

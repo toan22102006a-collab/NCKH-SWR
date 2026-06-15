@@ -22,18 +22,20 @@
 
 ### Keywords by Category
 
-#### Directly Related & Requirements Engineering (Core requirements & RE methods)
+#### Directly Related Papers
 
-- "Machine learning", "Ethical challenges", "Higher education", "Predicting analytics", "Data privacy" (Matched with paper 1).
-- "Student dropout prediction", "Learning Management System", "Machine Learning", "Educational Data Mining" (Matched with paper 2).
-- "requirements engineering for artificial intelligence" (RE4AI)
-- "goal-oriented requirements engineering AI systems" (Matched with paper 5)
-- "software requirements elicitation challenges in higher education" (Matched with paper 7)
+- "Machine learning", "Ethical challenges", "Higher education", "Predicting analytics", "Data privacy" (Paper 1).
+- "Student dropout prediction", "Learning Management System", "Machine Learning", "Educational Data Mining" (Paper 2).
+- "Requirements Engineering", "Artificial Intelligence", "Machine Learning", "AI-based System", "Vision Paper", "RE", "AI", "ML" (Paper 3).
+- "Requirements Engineering", "Machine Learning", "AI Systems", "Tertiary Study" (Paper 4).
+- "RE", "AI", "Systematic mapping study", "RE4AI", "SMS" (Paper 5).
+- "Predicting Academic", "Identifying", "At-Risk students", "Data Analytics", "Machine Learning", "Higher Education" (Paper 6).
+- "Early warning system", "Personalized intervention", "Educational data mining", "Taiwanese higher education", "Learning analytics", "Socio-technical systems", "Educational equity" (Paper 7).
 
 #### AI & Predictive Analytics Methods
 
-- "machine learning in higher education"
-- "student dropout prediction machine learning models" (Matched with paper 2)
+- "Machine learning", "Predicting analytics", "Literature Search Strategy" (Paper 1).
+- "Student dropout prediction", "Machine Learning", "Education Data Mining" (Paper 2)
 - "learning management system log data student failure" (Matched with paper 3)
 - "academic performance classification ensemble learning university"
 
